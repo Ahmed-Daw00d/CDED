@@ -22,5 +22,8 @@ namespace ItemApp.Models
         [Display(Name="Date")]
         public DateTime CreatedDate { get; set; }= DateTime.Now;
 
+        
+ 
+
     }
 }

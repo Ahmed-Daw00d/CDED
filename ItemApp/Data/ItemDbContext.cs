@@ -12,5 +12,11 @@ namespace ItemApp.Data
         }
         public DbSet<Category>Categories { get; set; }
         public DbSet<Item> Items { get; set; }
+        public DbSet<ItemAdd>ItemAdds { get; set; }
+
+        internal object Find(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
